@@ -1,13 +1,9 @@
 package springEx.hellospring.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import springEx.hellospring.domain.Member;
 import springEx.hellospring.repository.MemberRepository;
-import springEx.hellospring.repository.MemoryMemberRepository;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 
